@@ -1,0 +1,72 @@
+img.feed_logo {
+    width: 150.203px;
+    max-width: 144.8px;
+    height: 33.555px;
+    margin-right: 5em;
+}
+img.image_4{
+    width: 32.485px;
+    max-width: 32.485px;
+    height: 23.57px;
+    max-height: 23.57px;
+}
+.avater img{
+    border-radius: 999px;
+    width: 71px;
+    max-width: none;
+    height: 71px;
+    max-height: none;
+    margin-left: 0;
+    margin-right: 0;
+    display: block;
+}
+.client_heading{
+    text-align: center;
+}
+.client_heading h1{
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 64px;
+    color: #09090B;
+}
+.contant_single {
+    width: 399px;
+    background-image: linear-gradient(73deg,#f0f7ff,#f1f7fd 0%,#faf5e4 98.62%);
+    background-color: white;
+    height: 475px;
+    border: 1px solid #e4e5e9;
+    padding: 36px 42px 53px 53px;
+    border-radius: 35px;
+}
+.contant_pragraph p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #09090b;
+}
+.client_wrapper {
+    display: flex;
+    gap: 2em;
+}
+.avater_wrapper {
+    display: flex;
+    gap: 2em;
+}
+.avater_contant h1{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #02549D;
+}
+.avater_contant p{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #525468;
+}
+
+@media(max-width:550px){
+    .client_wrapper{
+        flex-direction: row-reverse;
+    }
+}
