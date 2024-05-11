@@ -1,21 +1,16 @@
-header {
-    width: 1189px;
-    height: 60px;
-    background: white;
-    padding: 6px 6px 6px 25px;
-    margin: 14px 0 0 0;
-    border-radius: 500px;
-}
 .logo img{
     width: 200px;
 }
 .flex_container{
-   max-width: 73.5em;
-   margin: 0 auto;
+    max-width: 73.5em;
+    margin: 0 auto;
     padding: 1em;
     display: flex;
     align-items: center;
     gap: 6em;
+    background-color: white;
+    border-radius: 4em;
+    margin-top: 2em;
 }
 .list_items{
     display: flex;

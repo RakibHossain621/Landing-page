@@ -19,9 +19,7 @@
     color: #000000;
     margin-bottom: 2em;
 }
-.app_button{
-    background-color: green;
-}
+
 
 @media(max-width:550px){
     .hero .container{

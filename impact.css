@@ -1,0 +1,53 @@
+.impact_wrapper {
+    display: flex;
+    gap: 8em;
+}
+.impact_heading{
+    width: 45%;
+}
+.single_impact{
+    width: 45%;
+    background-color: #f0f7ff;
+    width: 30%;
+    padding: 2.5em;
+    border-radius: 20px;
+}
+.impact_heading h1{
+    text-transform: capitalize;
+    font-size: 55px;
+    font-weight: 500;
+}
+.impact_heading p{
+    color: #383941;
+    font-size: 23px;
+    margin-top: 2em;
+}
+.impact_heading h6{
+    color: #09090b;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
+}
+.impact_heading h6:hover{
+    color: red;
+}
+.single_impact h1{
+ font-size: 23px;
+}
+.single_impact p{
+    color: #383941;
+    padding-top: 20px;
+    font-size: 16px;
+    line-height: 20px;
+}
+.single_impact h6{
+    color: #09090b;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
+}
+.single_impact h6:hover{
+    color: aqua;
+}

@@ -1,0 +1,37 @@
+.excel_header img{
+width: 40px;
+height: 40px;
+}
+.excel_heading h1{
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 64px;
+    color: #09090B;
+    text-align: center;
+}
+.excel_header{
+    display: flex;
+    gap: 2em;
+}
+.single_element{
+    background-color: #fff;
+    width: 24%;
+    padding: 2.5em;
+    border-radius: 20px;
+}
+.excel_wrapper {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+.box_8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+}
+.excel_contant p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #383941;
+}
