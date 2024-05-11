@@ -1,0 +1,22 @@
+.Experts{
+    background:#fff;
+}
+
+.expert_left{
+    width: 45%;
+}
+.expert_right{
+    width: 45%;
+}
+.expert_right img{
+    width: 40px;
+    height: 40px;
+}
+.expert_wrapper{
+    display: flex;
+    gap: 1em;
+}
+.export_box {
+    width: 50px;
+    height: 50px;
+}

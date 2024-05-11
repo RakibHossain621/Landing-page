@@ -1,0 +1,80 @@
+.excel_header img{
+width: 40px;
+height: 40px;
+}
+.excel_heading h1{
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 64px;
+    color: #09090B;
+    text-align: center;
+}
+.heading_start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -19em;
+}
+
+.heading_start img{
+    width: 50px;
+}
+.excel_header{
+    display: flex;
+    gap: 2em;
+}
+.box_1{
+    margin-top: 4em;
+}
+.single_element{
+    background-color: #fff;
+    width: 24%;
+    padding: 2.5em;
+    border-radius: 20px;
+}
+.excel_wrapper {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+.box_8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+}
+.excel_contant p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #383941;
+}
+.icon_box h6{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.icon_box {
+    width: 24px;
+    height: 24px;
+    background: #0000EE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.d-flex h6{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #09090B;
+    cursor: pointer;
+}
+.d-flex h6:hover{
+    color:#0000EE;
+}
+.icon_box i{
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}

@@ -1,3 +1,10 @@
+.services {
+    background-color: #eff3f9;
+    height: 1176px;
+    width: 1349px;
+    padding: 101px;
+}
+
 .services_heading_wrpper {
     display: flex;
     align-items: center;
@@ -36,14 +43,6 @@
         color: #c4c4c4;
     }
 
-.services_box h6{
- margin-top: 1em;
-font-size: 12px;
-color: #666667;
-font-weight: 700;
-    
-}
-
 .services_single h1 {
         font-size: 29px;
         color: #000;
@@ -55,10 +54,4 @@ font-weight: 700;
         font-style: normal;
         line-height: 20px;
         }
-        .services_single h6{
-            margin-top: 1em;
-           font-size: 12px;
-          color: #666667;
-          font-weight: 700;
-        }
-    
+      

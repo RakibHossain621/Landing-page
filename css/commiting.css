@@ -1,15 +1,11 @@
+section.Committing.sec_padding {
+    background: #f3f4f9;
+}
+
 .committing_wrapper{
     display: flex;
     gap: 1em;
 }
-/* .commiting_right_wrapper {
-    grid-column-gap: 50px;
-    grid-row-gap: 50px;
-    grid-template-rows: auto auto;
-    grid-template-columns: 1fr 1fr;
-    grid-auto-columns: 1fr;
-    display: grid;
-} */
 .commiting_left{
     width: 45%;
 }
@@ -80,20 +76,4 @@
     line-height: 20px;
     color: #383941;
     margin-top: 2em;
-}
-.image_contant h6{
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 24px;
-    color: #09090b;
-    display: flex;
-    gap: 1em;
-}
-.image_contant i{
-    font-size: 14px;
-    line-height: 20px;
-    color: #0000EE;
-    width: 24px;
-    height: 24px;
-    display: block;
 }

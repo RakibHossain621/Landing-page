@@ -1,0 +1,40 @@
+.work{
+    background-color: #fff;
+    height: 905px;
+}
+
+.work_left{
+    width: 50%;
+}
+.work_right{
+    width: 50%;
+}
+
+.work_wrapper{
+    display: flex;
+    gap: 2em;
+}
+.work_left h1{
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 64px;
+    color: #09090B;
+}
+.work_left p{
+    font-size: 20px;
+    line-height: 28px;
+    color: #383941;
+    margin-top: 2em;
+}
+.left_img {
+    transform: translate(77px, 127px);
+}
+.left_img img{
+    border-radius: 20px;
+}
+.right_img img {
+    width: 203px;
+    height: 178px;
+    transform: translate(683px, 60px);
+    border-radius: 34px;
+}
