@@ -77,3 +77,19 @@ section.Committing.sec_padding {
     color: #383941;
     margin-top: 2em;
 }
+
+
+@media(max-width:550px){
+    .commiting_left{
+        width: 100%;
+    }
+    .commiting_right{
+        width: 100%;
+    }
+    .commiting_img_wrapper {
+        flex-direction: column;
+    }
+    .commiting_single_image{
+        width: 100%;
+    }
+}

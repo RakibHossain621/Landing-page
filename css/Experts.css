@@ -14,7 +14,7 @@
 }
 .expert_wrapper{
     display: flex;
-    gap: 1em;
+    gap: 2em;
 }
 .export_box img {
     width: 50px;
@@ -24,4 +24,43 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+}
+.export_box.box_4 {
+    margin-left: 5em;
+    margin-top: 2em;
+}
+.export_box {
+    margin-left: 3em;
+    margin-top: 2em;
+}
+.export_box.box_5 {
+    margin-left: 9em;
+}
+.export_box.box_2 {
+    margin-left: -1em;
+}
+.export_box.box_3 {
+    margin-top: 6em;
+    margin-left: 0em;
+}
+.export_box.box_8 {
+    margin-left: -4em;
+}
+.export_box.box_11 {
+    margin-left: 3em;
+}
+.export_box.box_10 {
+    margin-left: 8em;
+}
+.expert_left h1{
+    font-size: 59px;
+    font-weight: 500;
+    line-height: 64px;
+    color: #09090B;
+}
+.expert_left p {
+    font-size: 22px;
+    line-height: 28px;
+    color: #383941;
+    margin-top: 1em;
 }

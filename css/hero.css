@@ -22,8 +22,8 @@
 
 
 @media(max-width:550px){
-    .hero .container{
-        flex-direction: column-reverse;
+    .hero_wrapper{
+        flex-direction: column;
     }
     .hero_heading{
         width: 100%;
@@ -31,4 +31,26 @@
     .hero_img{
         width: 100%;
     }
+    .hero_button{
+        display: flex;
+        gap: 1em;
+    }
+    .hero_heading h1{
+        font-size: 40px;
+    }
+}
+
+@media(max-width:768px){
+    .hero_wrapper{
+        flex-direction: column;
+    }
+    .hero_heading{
+        width: 100%;
+    }
+    .hero_img{
+        width: 100%;
+    }
+    .hero_heading p{
+        font-size: 23px;
+}
 }

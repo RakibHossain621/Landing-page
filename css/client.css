@@ -82,3 +82,14 @@ img.image_4{
         width: 100%;
     }
 }
+@media(max-width:768px){
+    .client_wrapper{
+        flex-direction: column;
+    }
+    .contant_single{
+        width: 100%;
+    }
+    .client_video{
+        width: 100%;
+    }
+}

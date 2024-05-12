@@ -51,3 +51,33 @@
 .single_impact h6:hover{
     color: aqua;
 }
+
+
+@media(max-width:550px){
+    .impact_wrapper{
+        flex-direction: column;
+    }
+    .impact_heading{
+    width: 100%;
+    }
+    .single_impact{
+        width: 100%;
+    }
+    .impact_heading h1 {
+        font-size: 45px;
+    }
+    .impact_heading p {
+        font-size: 14px;
+    }
+}
+@media(max-width:768px){
+    .impact_wrapper{
+        flex-direction: column;
+    }
+    .impact_heading {
+        width: 100%;
+    }
+    .single_impact{
+        width: 100%;
+    }
+}
