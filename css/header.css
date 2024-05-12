@@ -40,3 +40,19 @@ color: #02549D;
         border: none;
         outline: none;
     }
+
+    .menu-toggle {
+        display: none;
+      }
+      
+      @media screen and (max-width: 768px) {
+        .list_item {
+          display: none;
+        }
+      
+        .menu-toggle {
+          display: block;
+          cursor: pointer;
+        }
+      }
+      

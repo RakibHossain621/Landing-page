@@ -29,11 +29,17 @@ img.image_4{
     line-height: 64px;
     color: #09090B;
 }
+.contant_single{
+    width: 30%;
+}
+.client_video{
+    width: 65%;
+}
 .contant_single {
-    width: 399px;
+    /* width: 399px; */
     background-image: linear-gradient(73deg,#f0f7ff,#f1f7fd 0%,#faf5e4 98.62%);
     background-color: white;
-    height: 475px;
+    /* height: 475px; */
     border: 1px solid #e4e5e9;
     padding: 36px 42px 53px 53px;
     border-radius: 35px;
@@ -67,6 +73,12 @@ img.image_4{
 
 @media(max-width:550px){
     .client_wrapper{
-        flex-direction: row-reverse;
+        flex-direction: column;
+    }
+    .contant_single{
+        width: 100%;
+    }
+    .client_video{
+        width: 100%;
     }
 }
