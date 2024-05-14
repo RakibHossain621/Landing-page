@@ -22,11 +22,7 @@ section.Committing.sec_padding {
     font-weight: 400;
     font-size: 24px;
 }
-.committing_wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8em;
-}
+
 
 .committing_right {
     flex: 1;
@@ -80,6 +76,9 @@ section.Committing.sec_padding {
 
 
 @media(max-width:550px){
+    .committing_wrapper{
+        flex-direction: column;
+    }
     .commiting_left{
         width: 100%;
     }
@@ -91,5 +90,13 @@ section.Committing.sec_padding {
     }
     .commiting_single_image{
         width: 100%;
+    }
+}
+@media(max-width:768px){
+    .commiting_left h1{
+        font-size: 46px;
+    }
+    .commiting_left p{
+    font-size: 20px;
     }
 }

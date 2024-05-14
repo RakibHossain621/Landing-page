@@ -78,3 +78,23 @@ height: 40px;
     color: #ffffff;
     cursor: pointer;
 }
+
+@media(max-width:550px){
+    .excel_heading h1{
+        font-size: 50px;
+    }
+    .excel_wrapper{
+        flex-direction: column;
+    }
+    .single_element{
+    width: 100% !important;
+    }
+    .heading_start{
+        margin-left: -7em;
+    }
+}
+@media(max-width:768px){
+    .single_element{
+        width: 48%;
+        }
+}

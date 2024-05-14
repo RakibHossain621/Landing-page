@@ -36,3 +36,22 @@
     gap: 1em;
     margin-top: 2em;
 }
+
+@media(max-width:550px){
+    .head_area h1{
+        font-size: 43px;
+    }
+    .head_area p{
+   font-size:15px ;
+    }
+    .projcet_button{
+        display: flex;
+        gap: 1em;
+    }
+    .app_button {
+        font-size: 17px;
+    }
+    .flex_img img {
+        width: 66px;
+    }
+}
