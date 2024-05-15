@@ -37,6 +37,11 @@
     }
     .hero_heading h1{
         font-size: 40px;
+        line-height: normal;
+        margin-bottom: 1em;
+    }
+    .hero_heading p{
+        font-size: 20px;
     }
 }
 
