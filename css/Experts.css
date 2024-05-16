@@ -54,6 +54,20 @@
     justify-content: flex-end;
     align-items: center;
 }
+.export_box.export_box_7 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.export_box.export_box_11 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: self-end;
+}
+.export_box.export_box_8 {
+    display: flex;
+    justify-content: flex-end;
+}
 
 @media(max-width:550px){
     .expert_wrapper{
@@ -75,6 +89,13 @@
 
 }
 
+
+    
+@media(max-width:768px){
+    .exports_right_wrapper{
+        gap: 1em;
+    }
+}
 
 
 
